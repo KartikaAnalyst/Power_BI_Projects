@@ -83,6 +83,8 @@ clean_df = df[(df["z_score"] <= 3) & (df["z_score"] >= -3)].drop(columns=["z_sco
 ## this project is a sample and does not represent actual data of any organisation
 
 
+-----
+
 ## How to Use
 Download the `.pbix` file and open it in Power BI Desktop.
 
