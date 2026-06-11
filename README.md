@@ -13,12 +13,12 @@ This end-to-end Business Intelligence and Data Operations project transforms raw
 ### 1. Predictive Sales Forecasting Pipeline
 *Focuses on advanced time-series modeling, transactional frequency tracking, and regional categorical distributions.*
 
-![Sales Forecast](./Sales%20Forecast%20data.png)
+![Sales Forecast](./Sales_Forecast.png)
 
 ### 2. Product & Consumer Demographic Analysis
 *Focuses on cohort segmentation, product performance vectors, and statistical outlier bounding.*
 
-![Product and Demographic analysis](./Product%20and%20Demographic%20analysis.png)
+![Product and Demographic Analysis](./Product_and_Demographic%20analysis.png)
 
 ---
 
