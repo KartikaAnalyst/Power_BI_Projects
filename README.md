@@ -80,13 +80,12 @@ print(outliers)
 # 4. Export Clean Database for Power BI Deployment
 clean_df = df[(df["z_score"] <= 3) & (df["z_score"] >= -3)].drop(columns=["z_score"])
 
-## this project is a sample and does not represent actual data of any organisation
 
 
------
+**## this project is a sample and does not represent actual data of any organisation
+**
+**## How to Use
+**Download the `.pbix` file and open it in Power BI Desktop.
 
-## How to Use
-Download the `.pbix` file and open it in Power BI Desktop.
-
-## Data Source
-- (https://www.kaggle.com/datasets/logiccraftbyhimanshi/walmart-customer-purchase-behavior-dataset)
+**## Data Source
+**- (https://www.kaggle.com/datasets/logiccraftbyhimanshi/walmart-customer-purchase-behavior-dataset)
