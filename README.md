@@ -78,7 +78,7 @@ print(f"\n--- Statistical Outliers Identified: {len(outliers)} Records ---")
 print(outliers)
 
 # 4. Export Clean Database for Power BI Deployment
-clean_df = df[(df["z_score"] <= 3) & (df["z_score"] >= -3)].drop(columns=["z_score"])
+clean_df = df[(df["z_score"] <= 3) & (df["z_score"] >= -3)].drop(columns=["z_score"])```
 
 
 
