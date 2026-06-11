@@ -3,6 +3,14 @@
 ## Project Overview
 This end-to-end Business Intelligence and Data Operations project transforms raw transactional datasets into interactive, executive-ready analytical pipelines. Designed to bridge the gap between data engineering and business strategy, the ecosystem delivers deep-dive consumer diagnostic capabilities alongside predictive modeling to optimize inventory and marketing capital deployment.
 
+**## this project is a sample and does not represent actual data of any organisation
+**
+**## How to Use
+**Download the `.pbix` file and open it in Power BI Desktop.
+
+**## Data Source
+**- (https://www.kaggle.com/datasets/logiccraftbyhimanshi/walmart-customer-purchase-behavior-dataset)
+
 ### Key Business & Analytical Solutions:
 * **Predictive Capital Planning:** Built predictive time-series modeling to project sales trends and map confidence intervals over future cycles.
 * **Statistical Anomaly Diagnostics:** Engineered a custom Python pipeline within the ETL process using statistical data diagnostics to isolate and flag transactional anomalies and data outliers.
@@ -78,14 +86,6 @@ print(f"\n--- Statistical Outliers Identified: {len(outliers)} Records ---")
 print(outliers)
 
 # 4. Export Clean Database for Power BI Deployment
-clean_df = df[(df["z_score"] <= 3) & (df["z_score"] >= -3)].drop(columns=["z_score"])```
+clean_df = df[(df["z_score"] <= 3) & (df["z_score"] >= -3)].drop(columns=["z_score"])
 
 
-
-**## this project is a sample and does not represent actual data of any organisation
-**
-**## How to Use
-**Download the `.pbix` file and open it in Power BI Desktop.
-
-**## Data Source
-**- (https://www.kaggle.com/datasets/logiccraftbyhimanshi/walmart-customer-purchase-behavior-dataset)
